@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+	<title>Vježba 3</title>
+	<link rel="stylesheet" href="VašiSnoviS.css">
+	
+	
+	
+</head>
+<meta charset="utf-8">
+
+<body>
+
+	<div>
+	<ul class= "horizontalna-lista">
+		<li><button><a href="index.html">Početna</a></button></li>
+		<li><button><a href="main.html">Vježba 2</a></button></li>
+		<li>Vježba 3</li>
+		<li><button><a href="Tablice.html">Vježba 4</a></button></li>
+		<li><button><a href="https://github.com/MarinaLazicaaAA">GITHUB</a></button> </li>
+	</ul>
+	
+	
+	
+	
+	
+        <p id="p9"> | Sve o snovima | Marina Lazić | Multimedijske komunikacije|</p>
+    </div>
+
+
+
+<h1>Vaši snovi</h1>
+<p id="p1">Pošaljite nam opis svog sna na mail i odgovoriti ćemo vam s njegovim objašnjenjem i značenjem <br>
+*Vaši osobni podaci su korisni za provođenje istraživanja o snovima pomoću kojih ćemo vam dati sve točnije informacije* <br>
+Oznaka "<span id="crvenius">!</span>" znači da je pitanje obavezno</p>
+
+
+
+<!-- FORMOVI --!>
+
+<form action="mailto:marina.lazic8787@gmail.com" method="get" enctype="text/plain" accept-charset="UTF-8">
+<fieldset>
+<legend><strong>Osobni podaci</strong></legend>
+<p id="p2">!</p>
+Ime:<input type="text" name="Ime" required><br>
+Prezime:<input type="text" name="Prezime" required>
+<br> <br>
+<p>Spol:</p>
+
+<input type="radio" name="spol" value="zensko">Žensko<br>
+<input type="radio" name="spol" value="musko">Muško<br>
+<input type="radio" name="spol" value="ostalo">Ostalo<br><br>
+
+</fieldset>
+<br> <br>
+
+<fieldset>
+<legend><strong>Kontakt</strong></legend>
+<p id="p2">!</p>
+<label for="email">E-mail</label>
+<input type="email" name="email" autocomplete="on" required> <br>
+<br>
+
+
+
+<label for="tel">Mobitel:</label>
+<input type="tel" name="Tel" maxlength="10" required>
+
+<p id="p2">!</p>
+<p>Datum rođenja:</p> 
+<input type="date" name="rodendan" required>
+<br> <br>
+
+</fieldset>
+
+<fieldset>
+
+<legend><strong>Snovi</strong></legend>
+
+<p>Snova se sjećam:</p>
+
+<select name="redovitost">
+<option name="redovitost" value="uvijek">uvijek</option>
+<option name="redovitost" value="često">često</option>
+<option name="redovitost" value="ponekad">ponekad</option>
+<option name="redovitost" value="rijetko">rijetko</option>
+<option name="redovitost" value="nikad">nikad</option>
+</select>
+<br><br>
+
+
+
+Kad ste zaspali? <br>
+<input type="time" name="vrijeme"> <br> 
+
+Kad ste se probudili? <br>
+<input type="time" name="vrijeme"> <br> <br>
+
+<p id="p2">!</p>
+<textarea rows="10" cols="70" placeholder="Opišite svoj san..." required>
+</textarea>
+<br> <br>
+
+</fieldset>
+
+<p>Kako ste saznali za ovu stranicu?</p> 
+
+<input list="stranica" name="stranica">
+<datalist id="stranica">
+	<option value="MMK projekt" name="MMK projekt">MMK projekt</option>
+	<option value="Marina mi rekla" name="Marina mi rekla">Marina mi rekla</option>
+	<option value="Socijalne mreže" name="Socijalne mreže">Socijalne mreže</option>
+	<option value="Ostalo" name="Ostalo">Ostalo</option>
+</datalist>
+<br> <br>
+
+<p>Kako bi predali informacije, molimo da potvrdite  svoju suglasnost:</p>
+    
+    <label>
+        <input type="checkbox" name="suglasnost" required>
+        Suglasan/la sam s korištenjem mojih podataka u istraživačke svrhe
+    </label>
+    
+    <br><br>
+	
+
+
+
+
+<input type="button" value="PROVJERA" onclick="alert('Jeste li predali sve detalje!?')"> <br> <br>
+
+
+<input type="submit" value="Pošalji sve podatke"> <br> <br>
+<input type="image" src="slke/pngwing.com.png" alt="reset">
+</form>
+
+
+
+
+
+
+</body>

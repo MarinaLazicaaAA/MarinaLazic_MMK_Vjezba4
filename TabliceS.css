@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* css document */
+
+@font-face {
+    font-family: 'Typer';
+    src: url('fontovi/EmblemaOne-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alkatra';
+    src: url('fontovi/Alkatra-VariableFont_wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    
+    background-color: rgb(237,207,205);
+}
+
+
+.horizontalna-lista li {
+	color: white;
+	display: inline;
+	list-style: none;
+	background: rgb(163,80,134);
+	padding: 7px;
+}
+
+
+h1 {
+	color: rgb(163,80,134);
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Typer';
+	font-weight: 400;
+	text-shadow: 5px 5px 3px white;
+	letter-spacing: 2px;
+	
+}
+
+#p9 {
+	color: white;
+	text-decoration: underline;
+	text-decoration: overline;
+	text-align: center;
+	line-height: 140%;
+	width: 1500px;
+	background-color: rgb(163,80,134);
+	
+}
+
+#p1 {
+	color: white;
+	font-size: 20px;
+	font-family:'Alkatra';
+	font-weight: 400;
+	text-align: center;
+	line-height: 180%;
+	width: 1500px;
+	background-color: rgb(163,80,134);
+}
+
+/* TABLICE */
+
+.tablica0 {
+	background-color: darkred;
+	width:100%
+}
+
+
+
+
+.tablica1 {
+	font-family: 'Alkatra';
+	font-size: 17px;
+	border-width: 8px medium medium 8px;
+	border-style: solid dashed dashed solid;
+	border-color: purple white white purple;
+	background-color: #f8efee;
+	width: 60%; /* Postavite širinu tablice, može biti i 50%, 70% ili neka druga vrijednost */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablica1 td, th {
+	padding: 5px;
+	border-bottom: 1px solid #ddd;
+}
+.tablica1 th {
+	text-align: left;
+}
+
+.tablica1 th:nth-child(1),
+.tablica1 th:nth-child(2),
+.tablica1 th:nth-child(3) {
+    background-color: purple;
+	color:white;
+}
+
+.tablica1 tr:nth-child(even) {
+    background-color: #a35086;
+	color: white;
+}
+
+
+.detaljnije {
+	text-align: center;
+}
+
+
+
+.tablica2 {
+	font-family:'Alkatra';
+	font-size: 17px;
+	border-width: medium 8px 8px medium;
+	border-style: dotted groove groove dotted;
+	border-color: gray #990042c9 #990042c9 gray;
+	background-color: hsl(349 100% 90%);
+	width:50%;
+	border-radius: 50px 10px;
+	margin-left: 50%;
+	border-collapse: seperate;
+	border-spacing: 10px;
+	margin-top: 100px;
+}
+
+.tablica2 td, th {
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid purple;
+	border-right: 1px solid purple;
+}
+
+.tablica2 tr:last-child td {
+    border-bottom: none;
+}
+
+.tablica2 td:last-child,
+.tablica2 th:last-child {
+    border-right: none;
+}
+
+.tablica2 tr:nth-child(3) td:nth-child(1),
+.tablica2 tr:nth-child(4) td:nth-child(1) {
+    background-color: #c53a4c;
+	color: white;
+}
+
+.tablica3 {
+	font-family: 'Alkatra';
+	font-size: 17px;
+	border-width: medium medium 8px 8px;
+	border-style: dotted dotted groove groove;
+	border-color: gray gray #990042c9 #990042c9;
+	background-color: hsl(349 100% 90%);
+	width:30%;
+	border-radius: 10px 50px;
+	border-collapse: seperate;
+	border-spacing: 10px;
+	margin-top: -690px;
+}
+
+.tablica3 td, th {
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid purple;
+	border-right: 1px solid purple;
+}
+
+
+
+/* TABLICE */

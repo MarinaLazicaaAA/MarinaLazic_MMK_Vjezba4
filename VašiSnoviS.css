@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* css document */
+
+/* FONTFORGEOVI */
+
+@font-face {
+    font-family: 'Jersey';
+    src: url('Fontovi/Jersey10-Regular.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('Fontovi/PixelifySans-VariableFont_wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* FONTFORGEOVI */
+
+body {
+    
+    background-color: rgb(134, 184, 208);
+}
+
+h1 {
+	color: white;
+	font-size: 90px;
+	text-align: center;
+	font-family: 'Jersey';
+	font-weight: 800;
+	text-shadow: 5px 5px 3px black;
+	letter-spacing: 2px;
+	
+}
+
+#p1 {
+	color: rgb(57, 94, 158);
+	font-size: 20px;
+	font-family:'Pixel';
+	font-weight: 400;
+	text-align: center;
+	line-height: 180%;
+	width: 1500px;
+	background-color: yellow;
+}
+
+.horizontalna-lista li {
+	color: white;
+	display: inline;
+	list-style: none;
+	font-family: 'Alegreya';
+	font-weight: 600;
+	background: rgb(57, 94, 158);
+	padding: 7px;
+}
+
+#p9 {
+	color: white;
+	text-decoration: underline;
+	text-decoration: overline;
+	text-align: center;
+	line-height: 140%;
+	width: 1500px;
+	background-color: rgb(57, 94, 158);
+	
+	
+}
+
+#p2 {
+	color: red;
+	text-align: center;
+}
+
+#crvenius {
+    color: red;
+}
+/* STILOVI ZA FORM */
+
+form {
+	color: white;
+	font-family: 'Pixel';
+	font-weight: 400;
+	text-align: center;
+}
+
+input {
+	border: 2px solid darkblue;
+}
+
+input[type=submit] {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	background: darkblue;
+}
+
+input[type=submit]:focus {
+	font-size: 20px;
+	font-weight: bold;
+	border-color: #ffcc00; 
+    outline: none;
+}
+
+input[type="image"] {
+    width: 150px; 
+    height: auto; 
+    border: none; 
+    transition: transform 0.2s ease, opacity 0.2s ease; 
+}
+
+
+input[type="image"]:active {
+    transform: scale(0.95); 
+    opacity: 0.8; 
+}
+
+
+
+input[type=submit] {
+	backgroud: yellow;
+}
+
+
+
+input[type=button] {
+	font-size: 20px;
+	background: yellow;
+	box-shadow:  5px 5px 3px darkblue;
+	padding: 5px;
+	
+}
+
+input[type=button]:hover {
+	text-decoration: underline;
+}
+
+/* FIELDSET */
+
+fieldset {
+	width: 50%; 
+    margin: 0 auto; 
+    padding: 20px;
+	background: rgb(57, 94, 158);
+	border: 2px solid white; 
+	
+}
+
+legend{
+	color: yellow;
+}
+
